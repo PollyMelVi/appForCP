@@ -1,0 +1,49 @@
+body {
+  border: dashed 0.1rem #006b09;
+  border-radius: 15px;
+  box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+  width: 66vw;
+  min-height: 96vh;
+  margin: 1.5vw 0 2vw 2vw;
+}
+h2 {
+  margin: 1vw;
+  box-sizing: border-box;
+  font-size: 1.7vw;
+  font-weight: bold;
+  border-bottom: 3px #07b148 solid;
+}
+.record {
+  margin: 1vw;
+}
+div {
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 20px;
+}
+.delete {
+  background-color: #cf3a15;
+}
+.arhive {
+  background-color: #a3ae9e;
+}
+button {
+  float: right;
+  margin-right: 1vw;
+  width: 7vw;
+  height: 2vw;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 2px 0 5px 5px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+}
+.arhive:hover{
+    background-color: grey;
+}
+.delete:hover{
+    background-color: darkred;
+}

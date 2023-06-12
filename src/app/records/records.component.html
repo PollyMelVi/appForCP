@@ -1,0 +1,11 @@
+<body>
+  <h2>Записи</h2>
+  <div *ngFor="let item of items" class="record">
+    <div class="title"><b>{{ item.title }}</b></div>
+    <div>Категория:<b>{{ item.category }}</b></div>
+    <div>Автор:<b>{{ item.author }}</b></div>
+    <div>{{ item.content }}</div>
+    <button class="arhive" (click)="arhive(item.id)">Архив</button>
+    <button class="delete" (click)="remove(item.id)">Удалить</button>
+  </div>
+</body>

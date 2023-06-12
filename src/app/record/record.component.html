@@ -1,0 +1,48 @@
+<body>
+    <header><p>Создать запись</p></header>
+    <form>
+      <div class="authorForm">
+        <label class="labelAuthor" >Автор</label>
+        <input
+          id="author"
+          type="text"
+          required
+          name="author"
+          #authorInput
+          [(ngModel)]="form.author">
+      </div>
+      <div class="titleForm">
+        <label class="labelTitle" >Заголовок</label>
+        <input id="title"
+          type="text"
+          required
+          name="title"
+          #titleInput
+          [(ngModel)]="form.title">
+      </div>
+      <div class="categoryForm">
+        <label class="labelCategory">Категория</label>
+        <input
+          id="сategory"
+          type="text"
+          required
+          name="сategory"
+          #categoryInput
+          [(ngModel)]="form.category">
+      </div>
+      <div class="contentForm">
+        <label class="labelСontent">Содержание</label>
+        <textarea
+          id="content"
+          required
+          name="content"
+          #contentInput
+          [(ngModel)]="form.content">
+        </textarea>
+      </div>
+      <input type="reset" value="Создать" class="button" (click)="addNewItem()">
+    </form>
+    <footer>
+      <app-arhive></app-arhive>
+    </footer>
+    </body>

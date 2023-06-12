@@ -1,0 +1,97 @@
+body {
+    position: absolute;
+    border: dashed 0.1rem #006b09;
+    border-radius: 15px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    width: 25vw;
+    min-height: 91.5vh;
+    margin: 1.5vw 1vw 0 2vw;
+    padding: 1vw;
+  }
+  
+  header{
+    box-sizing: border-box;
+    font: 1.7vw Helvetica;
+    font-weight: bold;
+    border-bottom: 3px #07b148 solid;
+  }
+  p{
+    margin: 0;
+    padding: 0;
+  }
+  .authorForm{
+    margin-top: 2vw;
+  }
+  .labelAuthor{
+    font: 1.4vw Helvetica;
+    width: 100vw;
+  
+  }
+  #author{
+    width: 23vw;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #40493B;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+  .titleForm{
+    margin-top: 2vw;
+  }
+  .labelTitle{
+    font: 1.4vw Helvetica;
+    width: 100vw;
+  }
+  #title{
+    height: 3vh;
+    width: 23vw;
+    border-radius: 6px;
+    border: 2px solid #40493B;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+  .categoryForm{
+    margin-top: 2vw;
+  }
+  .labelCategory{
+    font: 1.4vw Helvetica;
+    width: 100vw;
+  }
+  #сategory{
+    width: 23vw;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #40493B;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+  .contentForm{
+    margin-top: 2vw;
+  }
+  .labelСontent{
+    font: 1.4vw Helvetica;
+  }
+  textarea{
+    height: 15vh;
+    width: 23vw;
+    border: 2px solid #40493B;
+    font-size: 14px;
+  }
+  .button{
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 0 5px 5px;
+    background-color: #006b09;
+    color: white;
+    font-weight:bold ;
+    transform: translate(+1%, +50%);
+  }
